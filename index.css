@@ -1,0 +1,83 @@
+*{
+    margin: 0 auto;
+    
+}
+section{
+    text-align: center;
+}
+  button{
+    width: 120px; height: 40px;
+    color: white;
+    background-color: rgb(124, 199, 11);
+    font-weight: bold;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 20px;
+    margin-top: 15px;   
+    border: none;
+  }
+  #cards img{
+    border: 2px solid rgb(207, 204, 197);
+    border-radius: 22px;
+    margin-top: 15px;
+    
+  }
+  p{
+    color: rgb(144, 181, 182);
+    font-weight: bold;
+    
+  }
+  p{
+    color: rgb(5, 121, 82);
+  }
+  button:hover{
+    transform: scale(1.2);
+    border-radius: 5px 5px 22px rgb(241, 241, 241);
+    opacity: 1;
+    transition: 2s ease;  
+  }
+  img:hover{
+    transform: scale(1.1);
+    color: darkgrey;
+    transition: 0.1 ease-out;
+  }
+  .descuento{
+    background-color: green;
+    color: white;
+    border-radius: 5px 5px;
+    width: 150px;
+    height: 150px;  
+  }
+  h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  ul li{
+    list-style: none;
+    margin-top: 15px;
+    
+  }
+ .container{
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 20px orange;
+    background-color: black;
+    height: 500px;
+    width: 400px;
+    border-radius: 22px;
+    
+ }
+ h3{
+    color: red;
+    text-shadow: 5px 5px 22px white;
+ }
+ .container:hover{
+    transform: scale(1.1) ;
+    transition: 0.5;
+    color: orangered;
+    box-shadow: 5px 5px 20px green;
+ }
+ h1{
+    text-align: center;
+ }
+ 
